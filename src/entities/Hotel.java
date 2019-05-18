@@ -4,12 +4,14 @@ public class Hotel {
 	
 	//variaveis
 	private String nome, email;
+	private int numQuarto;
 
 	//construtor
-	public Hotel(String nome, String email) {
+	public Hotel(String nome, String email, int quarto) {
 		super();
 		this.nome = nome;
 		this.email = email;
+		this.numQuarto = quarto;
 	}
 
 	//metodos get e set
@@ -30,9 +32,17 @@ public class Hotel {
 	}
 
 	
+	public int getNumQuarto() {
+		return numQuarto;
+	}
+
+	public void setNumQuarto(int numQuarto) {
+		this.numQuarto = numQuarto;
+	}
+
 	@Override
 	public String toString() {
-		return "Hotel [nome " + nome + ", email: " + email + "]";
+		return "Cadastro: nome " + nome + ", email: " + email + "Quarto Nr: " + numQuarto;
 	}
 	
 	
