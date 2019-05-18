@@ -15,7 +15,7 @@ public class program {
 		Product[] vetor = new Product[n];
 		double soma=0;
 		
-		for(int i = 0; i < n; i++) {
+		for(int i = 0; i < vetor.length; i++) {
 			System.out.print("Produto: ");
 			String nome = sc.next();
 			System.out.print("Preço: ");
@@ -27,7 +27,7 @@ public class program {
 			System.out.println(vetor[i].toString());
 		}
 		System.out.println(soma);
-		System.out.println("Media: "+ soma / n);
+		System.out.println("Media: "+ soma / vetor.length);
 		
 
 		sc.close();
