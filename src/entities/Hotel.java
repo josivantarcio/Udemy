@@ -42,7 +42,7 @@ public class Hotel {
 
 	@Override
 	public String toString() {
-		return "Cadastro: nome " + nome + ", email: " + email + "Quarto Nr: " + numQuarto;
+		return "Cadastro: nome " + nome + ", email: " + email + ", Quarto Nr: " + numQuarto;
 	}
 	
 	

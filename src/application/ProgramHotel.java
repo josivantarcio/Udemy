@@ -19,21 +19,24 @@ public class ProgramHotel {
 			System.out.print("Email: ");
 			String email = sc.next();
 			System.out.print("Numero do Quarto: ");
-			
 			int quarto = sc.nextInt();
-
-			vetor[i] = new Hotel(nome, email, quarto);
 			
-			if (vetor[i] != null) {
-
-			} else {
-				System.out.println("Quarto Ocupado!");
-			}
+			
+			/*
+			 * vetor[i] = new Hotel(nome, email, quarto);
+			 * 
+			 * if (!vetor[i].equals(quarto)) { System.out.println("Quarto Ocupado!"); } else
+			 * { for (int x = 0; x < numQuartos; x++) {
+			 * System.out.println(vetor[x].toString());
+			 * 
+			 * }
+			 * 
+			 * }
+			 */
+		
 		}
 
-		for (int i = 0; i < numQuartos; i++) {
-			System.out.println(vetor[i].toString());
-		}
+		
 
 		sc.close();
 
