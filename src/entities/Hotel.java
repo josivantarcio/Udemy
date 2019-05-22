@@ -7,11 +7,11 @@ public class Hotel {
 	private int numQuarto;
 
 	//construtor
-	public Hotel(String nome, String email, int quarto) {
-		super();
+	public Hotel(int quarto, String nome, String email) {
+		this.numQuarto = quarto;
 		this.nome = nome;
 		this.email = email;
-		this.numQuarto = quarto;
+		
 	}
 
 	//metodos get e set
@@ -42,8 +42,10 @@ public class Hotel {
 
 	@Override
 	public String toString() {
-		return "Cadastro: nome " + nome + ", email: " + email + ", Quarto Nr: " + numQuarto;
+		return "Hotel [nome=" + nome + ", email=" + email + "]";
 	}
+
+	
 	
 	
 }
