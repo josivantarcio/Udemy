@@ -15,7 +15,7 @@ public class Program78 {
 
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
-				System.out.print("Valor de "+i+" "+j);
+				System.out.print("Valor de "+i+" "+j+": ");
 				velha[i][j] = sc.nextInt();
 
 				if (velha[i][j] < 0) {
