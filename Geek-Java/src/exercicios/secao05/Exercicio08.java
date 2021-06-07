@@ -1,5 +1,6 @@
 package exercicios.secao05;
 
+<<<<<<< Updated upstream
 import java.util.Scanner;
 
 public class Exercicio08 {
@@ -25,6 +26,10 @@ public class Exercicio08 {
 		System.out.print("Menor numero: " + menor);
 		System.out.print("\nMaior numero: " + maior);
 		scan.close();
+=======
+public class Exercicio08 {
+	public static void main(String[] args) {
+>>>>>>> Stashed changes
 
 	}
 }
