@@ -1,12 +1,5 @@
 package exercicios.secao05;
 
-<<<<<<< Updated upstream
-public class Exercicio11 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-=======
 import java.util.Scanner;
 
 public class Exercicio11 {
@@ -23,7 +16,7 @@ public class Exercicio11 {
 		}
 
 		scan.close();
->>>>>>> Stashed changes
+
 	}
 
 }
