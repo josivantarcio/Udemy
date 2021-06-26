@@ -12,49 +12,62 @@ public class Exercicio52 {
 		dinheiro = scan.nextInt();
 
 		if (dinheiro >= 100) {
-			dinheiro = dinheiro % 100;
-			troco = dinheiro / 100;
-			System.out.println(dinheiro);
+			troco = dinheiro % 100;
+			dinheiro -= troco;
+			dinheiro /= 100;
+
+			System.out.println("Notas de 100: " + dinheiro);
 			dinheiro = troco;
 		}
 		if (dinheiro >= 50) {
-			dinheiro = dinheiro % 50;
-			dinheiro = dinheiro / 50;
-			System.out.println(dinheiro);
+			troco = dinheiro % 50;
+			dinheiro -= troco;
+			dinheiro /= 50;
 
+			System.out.println("Notas de 50: " + dinheiro);
+			dinheiro = troco;
 		}
 		if (dinheiro >= 20) {
-			dinheiro = dinheiro % 20;
-			dinheiro = dinheiro / 20;
-			System.out.println(dinheiro);
+			troco = dinheiro % 20;
+			dinheiro -= troco;
+			dinheiro /= 20;
 
+			System.out.println("Notas de 20: " + dinheiro);
+			dinheiro = troco;
 		}
 		if (dinheiro >= 10) {
-			dinheiro = dinheiro % 10;
-			dinheiro = dinheiro / 10;
-			System.out.println(dinheiro);
+			troco = dinheiro % 10;
+			dinheiro -= troco;
+			dinheiro /= 10;
 
+			System.out.println("Notas de 10: " + dinheiro);
+			dinheiro = troco;
 		}
 		if (dinheiro >= 5) {
-			dinheiro = dinheiro % 5;
-			dinheiro = dinheiro / 5;
-			System.out.println(dinheiro);
+			troco = dinheiro % 5;
+			dinheiro -= troco;
+			dinheiro /= 5;
 
+			System.out.println("Notas de 5: " + dinheiro);
+			dinheiro = troco;
 		}
 		if (dinheiro >= 2) {
-			dinheiro = dinheiro % 2;
-			dinheiro = dinheiro / 2;
-			System.out.println(dinheiro);
+			troco = dinheiro % 2;
+			dinheiro -= troco;
+			dinheiro /= 2;
 
+			System.out.println("Notas de 2: " + dinheiro);
+			dinheiro = troco;
 		}
 		if (dinheiro >= 1) {
-			dinheiro = dinheiro % 1;
-			dinheiro = dinheiro / 1;
-			System.out.println(dinheiro);
+			troco = dinheiro % 1;
+			dinheiro -= troco;
+			dinheiro /= 1;
 
+			System.out.println("Notas de 1: " + dinheiro);
+			dinheiro = troco;
 		}
 
-		System.out.println();
 		scan.close();
 
 	}
