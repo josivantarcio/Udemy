@@ -10,17 +10,19 @@ public class Exercicio51 {
 		int DataAtual = Calendar.getInstance().get(Calendar.YEAR);
 
 		int ano = 1995;
-		float salarioContratado = 100f, salAnoAnterior = 0;
+		float salarioContratado = 2000f, salAnoAnterior = 0;
 
 		while (ano < DataAtual) {
-			
+
 			if (ano == 1996) {
-				salarioContratado = salarioContratado + salarioContratado * 0.015f;
 				salAnoAnterior = salarioContratado;
+				salarioContratado += salarioContratado * 0.015f;
+
 			}
 			if (ano >= 1997) {
-				salarioContratado = salAnoAnterior * 2;
-				
+				float salario = salarioContratado;
+				salarioContratado += (salarioContratado-salAnoAnterior) * 2;
+				salAnoAnterior = salario;
 			}
 			ano++;
 		}
