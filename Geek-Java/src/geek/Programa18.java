@@ -24,7 +24,7 @@ public class Programa18 {
 		//System.out.println(num4.length);
 		
 		int num5[][] = {{1,2},{1,2,3,4,5,},{9,10,11}};
-		System.out.println(num4.length);
+		System.out.println(num5[1][3]);
 		
 		}
 	}
