@@ -6,7 +6,7 @@ public class Exercicio05 {
 
 	public static void main(String[] args) {
 		int vetor[] = new int[10];
-		int vPar[] = null;
+		int vPar[] = new int[10];
 		Scanner scan = new Scanner(System.in);
 		int pares = 0;
 
@@ -14,7 +14,6 @@ public class Exercicio05 {
 			System.out.print("Digite um valor: ");
 			vetor[i] = scan.nextInt();
 			if (vetor[i] % 2 == 0) {
- 
 				vPar[pares] = vetor[i];
 				pares++;
 			}
