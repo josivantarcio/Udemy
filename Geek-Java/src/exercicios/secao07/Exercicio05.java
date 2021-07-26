@@ -10,7 +10,7 @@ public class Exercicio05 {
 		Scanner scan = new Scanner(System.in);
 		int pares = 0;
 
-		for (int i = 0; i < vetor.length; i++) {
+		for (int i = 0; i < vetor.length; i++) { 
 			System.out.print("Digite um valor: ");
 			vetor[i] = scan.nextInt();
 			if (vetor[i] % 2 == 0) {
