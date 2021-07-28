@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Exercicio09 {
 
-	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		Integer pares[] = new Integer[6];
@@ -21,7 +20,7 @@ public class Exercicio09 {
 					a++;  
 					
 				}
-		}
+		} 
 		Arrays.sort(pares, Collections.reverseOrder());
 		for(int i = 0; i < pares.length; i++) {
 			System.out.print(pares[i]+" ");
