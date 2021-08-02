@@ -1,4 +1,4 @@
-package exercicios.secao07;
+package exercicios.secao07.parte1;
 
 public class Exercicio19 {
 

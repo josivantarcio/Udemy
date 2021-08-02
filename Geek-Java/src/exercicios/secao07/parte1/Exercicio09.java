@@ -1,4 +1,4 @@
-package exercicios.secao07;
+package exercicios.secao07.parte1;
 
 import java.util.Arrays;
 import java.util.Collections;
