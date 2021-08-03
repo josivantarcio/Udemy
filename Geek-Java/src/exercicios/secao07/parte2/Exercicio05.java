@@ -33,13 +33,21 @@ public class Exercicio05 {
 				} else {
 					msn = "Não Localizado";
 				}
-			} 
+			}
 		}
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat.length; j++) {
+				System.out.print(mat[i][j]+" ");
+				if(j == (mat.length-1)){
+					System.out.println();
+				}
+			}
+		} 
 
 		if (achei) {
 			System.out.println("X: " + v1 + " Y: " + v2);
 		}
-		System.out.println(msn); 
+		System.out.println(msn);
 
 		scan.close();
 	}
