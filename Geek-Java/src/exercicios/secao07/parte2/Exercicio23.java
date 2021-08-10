@@ -12,7 +12,7 @@ public class Exercicio23 {
 
 		for (int i = 0; i < A.length; i++) {
 			for (int j = 0; j < A.length; j++) {
-				A[i][j] = rad.nextInt(9);
+				A[i][j] = rad.nextInt(9); 
 			}
 		}
 
