@@ -1,6 +1,7 @@
 package exercicios.secao09;
 
 public class AgendaEx02{
+	private String[] pessoas = new String[10];
 	private	String nome;
 	private int idade;
 	private float altura;
@@ -24,6 +25,14 @@ public class AgendaEx02{
 	public void setAltura(float altura) {
 		this.altura = altura;
 	}
+	public String[] getPessoas() {
+		return pessoas;	
+	}
+	public void setPessoas(String[] pessoas) {
+		this.pessoas = pessoas;
+	}
+	
+	
 	
 	
 	
