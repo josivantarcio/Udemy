@@ -1,5 +1,5 @@
 //vetores parte 1
-package geek;
+package geekTest;
 
 public class Programa12 {
 

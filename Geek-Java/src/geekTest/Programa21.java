@@ -1,4 +1,4 @@
-package geek;
+package geekTest;
 
 import java.util.Scanner;
 

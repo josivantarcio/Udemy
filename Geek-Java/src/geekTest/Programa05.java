@@ -1,4 +1,4 @@
-package geek;
+package geekTest;
 
 public class Programa05 {
 	public static void main(String[] args) {
