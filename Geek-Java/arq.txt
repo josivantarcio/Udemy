@@ -9,3 +9,6 @@ estamos testando o arquivo de entrada e saida
 vou finalizar agora 
 teste de arquivo
 fechando as 16h47
+oi
+brasil
+teste

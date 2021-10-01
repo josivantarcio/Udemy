@@ -10,7 +10,7 @@ public class Main01 {
 		CriarArquivo arquivoSaida = new CriarArquivo(nome);
 		arquivoSaida.fazerArquivo();
 		System.out.println("------------------");
-		LerArquivo arquivoEntrada = new LerArquivo();
+		LerArquivo arquivoEntrada = new LerArquivo(); 
 		arquivoEntrada.lendoArquivo(nome);
 		
 		System.out.println("FIM");
