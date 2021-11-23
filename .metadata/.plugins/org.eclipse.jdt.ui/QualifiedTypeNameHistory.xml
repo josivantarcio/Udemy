@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="entities.Retangulo"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="entities.Aluno"/>
+    <fullyQualifiedTypeName name="entities.Cotacao"/>
+</qualifiedTypeNameHistroy>
