@@ -4,4 +4,5 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="entities.Aluno"/>
     <fullyQualifiedTypeName name="entities.Cotacao"/>
+    <fullyQualifiedTypeName name="javax.swing.DebugGraphics"/>
 </qualifiedTypeNameHistroy>
